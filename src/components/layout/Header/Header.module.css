@@ -1,0 +1,22 @@
+.headerSection {
+    background:  var(--background-secondary);
+    color: var(--text-secondary);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 100px;
+}
+
+.headerBlock {
+    display: flex;
+    align-items: center;
+}
+
+.logoIcon {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.contactButton {
+
+    margin-top:  10px;
+}

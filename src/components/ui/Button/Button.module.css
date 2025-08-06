@@ -1,0 +1,13 @@
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-image: radial-gradient(#87CEEB, #00BFFF);
+    transition: background-image 10s ease;
+}
+
+.button:hover {
+    background-image: radial-gradient(#00BFFF, #87CEEB);
+}

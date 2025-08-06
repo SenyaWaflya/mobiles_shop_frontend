@@ -1,42 +1,33 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    /*background*/
+    --background-primary: #212121;
+    --background-secondary: #D8BFD8;
+
+    /*text*/
+    --text-primary: #E0FFFF;
+    --text-secondary: #212121;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../../public/fonts/Ubuntu-Light.ttf') format('ttf');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+    font-family:  'Ubuntu', sans-serif;
+    max-width: 100vw;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background-primary);
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
